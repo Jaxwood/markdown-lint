@@ -1,6 +1,6 @@
 {
   "name": "markdown-lint",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "description": "Use remark and remark-lint to lint all markdown files inside repository",
   "main": "index.js",
   "scripts": {

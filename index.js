@@ -17,5 +17,5 @@ FileHound.create()
     let lintingErrors = files.map((file) => {
       return remark().use(styleGuide).processSync(fs.readFileSync(file))
     })
-    console.log(report(lintingErrors))
+    console.error(report(lintingErrors))
   })
